@@ -40,7 +40,7 @@ function shopping_Four(){
     console.log(product);
     return function(){
         console.log(`You have ${product} in your cart.`);
-        console.log(`You have ${sandwich + cola} in your cart.`);
+        console.log(`Total: ${sandwich + cola} RON.`);
     };
 }
 const shop_Four = shopping_Four();
@@ -56,7 +56,7 @@ function shopping_Five(){
     return function(){
         console.log(`You have ${product} in your cart.`);
         console.log(`You have ${size} products in your cart.`);
-        console.log(`You have ${sandwich + cola} RON in your cart.`);
+        console.log(`Total: ${sandwich + cola} RON.`);
         console.log(`Succes!`);
     };
 }
